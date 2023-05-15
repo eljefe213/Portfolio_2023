@@ -759,6 +759,12 @@ section:nth-child(odd) .animate.scroll,
   }
 }
 
+@media (max-width: 850px) {
+  .animate.home-img {
+    width: 55%;
+  }
+}
+
 @media (max-width: 768px) {
   .header {
     background: var(--bg-color);
